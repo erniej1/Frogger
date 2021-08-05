@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // // Move Car Right on a Time Loop //
+  // // Move Car Right on a Time Loope //
   function moveCarRight(carRight) {
     switch (true) {
       case carRight.classList.contains('c1'):
@@ -184,7 +184,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Move Frog when on the Log Right //
+  // Move Frog when on the Log Right
+ //
   function moveWithLogRight() {
     if (currentIndex > 18 && currentIndex <= 26) {
       squares[currentIndex].classList.remove('frog');
