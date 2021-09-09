@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentTime = 20;
   let timerId;
 
-  // Render Frog to Starting Block //
+  // Render Frog  //
   squares[currentIndex].classList.add('frog');
 
   // // Write Function to Move Frog //
